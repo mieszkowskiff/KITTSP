@@ -8,7 +8,7 @@ def main():
     then removes edges used in the first tour, then uses tsp to find another tour and so on.
     """
     print("Please enter problem instance name: (from folder preprocessed)")
-    input_file_name = f"./preprocessed/{input()}.txt"
+    input_file_name = f"./preprocessed/{input()}"
     print("Do you want to display graph? (Y/N) (only for instances with nodes names in format title_x_y)")
     if input() in ["Y", "y", "T", "t"]:
         display_graph = True

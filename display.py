@@ -29,7 +29,7 @@ def display(nodes, tours, K, title):
 
         X.append(float(x))
         Y.append(float(y))
-        plt.text(float(x), float(y), node_name)
+        #plt.text(float(x), float(y), node_name)
 
     colours = cm.rainbow(np.linspace(0, 1, K))
 
