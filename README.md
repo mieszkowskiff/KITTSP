@@ -20,15 +20,25 @@ To solve this problem, we utilize **IBM ILOG CPLEX**, a high-performance mathema
 
 ## Getting Started
 
-### Installation (Windows)
+### Installation
 
-It is highly recommended to run this project inside a virtual environment. You can set it up and install the required dependencies (`numpy`, `matplotlib`, `cplex`, `icecream`) using the following commands:
+It is highly recommended to run this project inside a virtual environment. You can set it up and install the required dependencies (`numpy`, `matplotlib`, `cplex`, `icecream`) using the commands below, depending on your operating system:
 
+**Windows**
 ```powershell
 python -m venv venv
-venv\Scripts\Activate.bat
+venv\Scripts\activate
 pip install numpy matplotlib cplex icecream
 ```
+
+**Linux / macOS**
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install numpy matplotlib cplex icecream
+```
+
+> **Note:** On Linux, you may need to install the `python3-venv` package first (e.g., `sudo apt install python3-venv` on Ubuntu/Debian) if your system doesn't include it by default.
 
 ## Results and Visualizations
 
